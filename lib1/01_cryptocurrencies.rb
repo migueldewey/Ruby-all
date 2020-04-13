@@ -169,3 +169,9 @@ puts hashi
 
 #puts hashi.sort_by { |c, pr| -pr}
 puts crypto.size
+
+#La ou les crypto qui ont la plus grosse valeur.
+#La ou les crypto qui ont la plus petite valeur.
+#Le nombre de crypto contenant le mot "coin".
+#Les devises, dont le cours est inférieur à 6000 (Indice : on peut comparer en valeur 2 integers mais pas 2 strings. Pense bien à enlever le $ et éventuellement utiliser .to_i pour faire cet exercice).
+#La devise la plus chère parmi celles dont le cours est inférieur à 6000.
