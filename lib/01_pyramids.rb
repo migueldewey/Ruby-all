@@ -65,7 +65,8 @@ def ask_floors
 	i = gets.chomp.to_i 
 	return i
 end
-i = ask_floors
+def perform
+	i = ask_floors
 loop  do
   	break if i < 25 && i >= 0
 	puts "Choisis une chiffre entre 0 et 25"
@@ -82,3 +83,5 @@ n = i/2
 k = 1
 puts "Voici la pyramide : "
 wtf_pyramid(i,n,k)
+end
+perform
